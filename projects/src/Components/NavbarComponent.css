@@ -1,0 +1,118 @@
+
+  .header-width {
+    background-color: #333;
+    height: 80px;
+  }
+  
+ .logo{
+   background-image: url('../ScoutCompany/images.png');
+   height: 30px;
+   width: 10%;
+   background-position: center;
+   background-size:cover ;
+   border-radius: 10px;
+   position: relative;
+   left: 11%;
+   top: 7px;
+   display: inline-block;
+   align-items: center;
+   cursor: pointer;
+ }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    bottom: 10%; 
+    gap: 110px;
+  }
+  
+  nav ul li a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .contain-nav{
+    display: inline-block;
+    position: relative;
+    left: 21%;
+    bottom: 20%;
+  }
+
+  @media (max-width: 1200px) {
+    /* For medium to large screens, adjust widths and spacing */
+    .logo {
+      width: 15%; /* Adjust logo size for medium screens */
+      left: 8%; /* Adjust position */
+    }
+  
+    nav ul {
+      gap: 50px; /* Reduce the gap between nav items */
+    }
+  
+    .contain-nav {
+      left: 15%; /* Adjust nav position */
+      bottom: 15%; /* Adjust nav position */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* For tablets and smaller screens */
+    .header-width {
+      height: 60px; /* Adjust header height */
+    }
+  
+    .logo {
+      width: 20%; /* Make logo bigger on smaller screens */
+      height: 25px; /* Adjust logo height */
+      left: 5%; /* Adjust logo position */
+      top: 5px;
+    }
+  
+    nav ul {
+      flex-direction: column; /* Stack the nav items vertically */
+      gap: 20px; /* Reduced gap between items */
+      margin-top: 10px; /* Add space above the nav */
+    }
+  
+    .contain-nav {
+      left: 10%; /* Adjust nav container position */
+      bottom: 10%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* For very small screens like mobile phones */
+    .logo {
+      width: 30%; /* Make logo even larger on mobile */
+      height: 20px; /* Adjust logo size */
+      left: 2%; /* Center logo more */
+    }
+  
+    nav ul {
+      gap: 10px; /* Reduce gap even more */
+    }
+  
+    .contain-nav {
+      left: 5%; /* Adjust nav container */
+      bottom: 5%;
+    }
+  
+    nav ul li a {
+      font-size: 14px; /* Reduce font size on smaller screens */
+    }
+  }
+
+
+  .logo {
+    width: 10vw; /* Width relative to viewport width */
+    height: 5vh; /* Height relative to viewport height */
+  }
+  .tm{
+    color: rgb(9, 14, 18);
+  }
+  
+  
